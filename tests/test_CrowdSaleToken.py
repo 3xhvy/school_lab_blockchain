@@ -3,7 +3,7 @@ from ape import accounts, project
 
 @pytest.fixture
 def crowd_sale_token(deployer):
-    return deployer.deploy(project.CrowdSaleToken, "CrowdSale", "CS", 18, 1000)
+    return deployer.deploy(project.CrowdSaleToken_22520542, "CrowdSale", "CS", 18, 1000)
 
 def test_initial_setup(crowd_sale_token, deployer):
     """Test initial contract setup"""
