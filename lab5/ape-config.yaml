@@ -1,0 +1,10 @@
+name: lab5
+node:
+  ethereum:
+    local:
+      uri: http://127.0.0.1:8545
+
+networks:
+  ethereum:
+    local:
+      default_provider: node
